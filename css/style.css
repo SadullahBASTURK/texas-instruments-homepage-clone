@@ -1,0 +1,294 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/************************** Header *******************************/
+
+.outline-none:focus{
+    outline: none;
+}
+
+.input-width{
+    width: 268px;
+}
+
+input::placeholder{
+    padding-left: 1px;
+}
+
+.btn-outline-color:hover{
+    background-color: gainsboro;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.divider{ 
+    border-left: 1px solid #555555;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    color: #555555;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 220px;
+}
+
+.relative{
+    display: flex;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+    width: 300px;
+    top: 22px; 
+    left: -865px;
+}
+
+/**************************** Navbar ******************************/
+
+.nav-bg{
+    background-color: #cc0000;
+    height: 50px;
+}
+
+.nav-btn{
+    background-color: #cc0000;
+    color: #ffffff;
+    font-size: 14px;
+    border: 0px;
+    margin-top: -8px;
+    padding: 14.5px;
+}
+
+.nav-btn:hover{
+    background-color: #ff0101;
+}
+
+.shop-margin{
+    margin-left: 420px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*********************** Carousel  ****************************/
+
+.carousel-indicators li {
+    width: 10px; /* Dairelerin genişliği */
+    height: 10px; /* Dairelerin yüksekliği */
+    border-radius: 50%; /* Daire şekli için kenar yarıçapı */
+    background-color: #ffffff; /* Dairelerin normal arka plan rengi (örneğin, siyah) */
+    margin: 0 6px; /* Daireler arasındaki yatay boşluk */
+    transition: background-color 0.3s; /* Geçiş efekti için arka plan rengi değişim süresi */
+  }
+  
+  .carousel-indicators .active {
+    background-color: red; /* Geçerken kırmızı olarak ayarlanan arka plan rengi */
+  }
+
+  .carousel-content{
+    margin-bottom: 250px;
+    padding-right: 50px;
+  }
+
+  /*********************** Link Bar ***************************/
+
+  .bar-link{
+    width: 100%;
+    height: 50px;
+    background-color: #555555;
+  }
+
+  .bar-link-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .bar-link-icon{
+    width: 18px; 
+    height: 18px;
+    padding-bottom: 2px;
+  }
+
+  /************************* Product  ************************/
+
+  .product-area{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f7f7f7;
+  }
+
+  .padding-vertical{
+    padding-top: 64px; 
+    padding-bottom: 64px; 
+  }
+
+  /***************************** Card **************************/
+
+.card{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}  
+
+.card-link{
+    color: #cc0000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-link:hover{
+    text-decoration: underline;
+    color: #cc0000;
+}
+
+.product-group{
+    font-size: 12px;
+    color: #555555;
+    text-transform: uppercase;
+}
+
+.product-group:hover{
+    text-decoration: underline;
+    color: #555555;   
+}
+
+.product-code{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #007c8c;
+    text-transform: uppercase;
+}
+
+.product-code:hover{
+    text-decoration: underline;
+    color: #007c8c;
+}
+
+/************** Container  ********************/
+.container{
+    max-width: 1214px;
+}
+
+/**************************** Main 1 ********************************/
+
+.main-area-1{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+}
+
+ .main-area-button{
+    border: 1px solid #cc0000;
+    border-radius: 2px;
+    font-size: 14px; 
+    font-weight: bold;
+    color: #f7f7f7; 
+    background-color: #cc0000;
+    width: 100px;
+    height: 40px;
+ } 
+
+.main-area-button:hover{
+    background-color: #ff0101;
+}
+
+/**************************** Main 2 ********************************/
+  
+.main-area-2{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #c00;
+}  
+
+/**************************** Main 3 ********************************/
+
+.main-area-3{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #ffffff;
+}
+
+/**************************** Main 4 ********************************/
+
+.main-area-4{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f7f7f7;
+}
+
+.achievement{
+    font-size: 16px; 
+    margin-bottom: 24px; 
+    padding-top: 15px; 
+    padding-right: 24px; 
+    line-height: 20px;
+}
+
+.achievement-list{
+    color: #cc0000; 
+    font-size: 34px; 
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/************************  Footer ****************************/
+
+.footer-area{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 64px;
+    padding-bottom: 16px;
+    background: #333333;
+    background: linear-gradient(270deg, #333333, #020202);
+}
+
+.footer-area-grid{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-gap: 16px;
+    font-size: 14px;
+}
+
+.footer-area-grid a{
+    color: #ffffff;
+}
+
+.footer-hr{
+    border: 0;
+    border-bottom: 1px solid #333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-link{
+    border-left: 1px solid #555;
+    padding: 0 12px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
